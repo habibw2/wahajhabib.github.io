@@ -4,7 +4,7 @@
 # baseurl is the website's URL without the hostname
 
 # If you are building a simple GitHub user page (http://username.github.io) then use these settings:
-url: "http://shangjingbo1226.github.io"
+url: "http://wahajhabib.github.io"
 baseurl: ""
 
 # If you are building a GitHub project page then use these settings:
@@ -14,10 +14,10 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Jingbo Shang 
+title: Wahaj Habib
 
 # Short description of your site
-description: Welcome to Jingbo Shang's Homepage! 
+description: Welcome to Wahaj Habib's Homepage! 
 
 # --- Navigation bar options --- #
 
@@ -30,7 +30,7 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar.jpg"
+avatar: "https://pbs.twimg.com/profile_images/1186925543297572864/viAgqNqe_400x400.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
@@ -41,21 +41,22 @@ avatar: "/img/avatar.jpg"
 # Change all these values or delete the ones you don't want.
 # Important: you must keep the "name" parameter, everything else you can remove
 author:
-  name: <a href='http://www.hit-counts.com'><img src='http://www.hit-counts.com/counter.php?t=MTM4NTA4MQ==' border='0' alt='Hit Counter'></a><br/>Jingbo Shang 
-  email: "shang7@illinois.edu"
-  facebook: jingbo.shang
-  github: shangjingbo1226
+  name: <a href='http://www.hit-counts.com'><img src='http://www.hit-counts.com/counter.php?t=MTM4NTA4MQ==' border='0' alt='Hit Counter'></a><br/>Wahaj Habib 
+  email: "wahaj.habib2@mail.dcu.ie"
+  linkedin: wahaj-habib
+  twitter: wahaj_habib
+  github: habibw2
   
 # Select which links to show in the footer
 footer-links-active:
   rss: false
-  facebook: true
+  facebook: false
   email: true
-  twitter: false
+  twitter: true
   google-plus: false
   github: true
   reddit: false
-  linkedin: false
+  linkedin: true
   xing: false
   stackoverflow: false
   snapchat: false
@@ -67,7 +68,7 @@ footer-links-active:
 # Select which share links to show in posts
 share-links-active:
   twitter: true
-  facebook: true
+  facebook: false
   google: false
   linkedin: true
 
@@ -99,7 +100,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Chicago"
+timezone: "Dublin/Ireland"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/
